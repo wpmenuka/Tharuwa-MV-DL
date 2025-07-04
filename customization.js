@@ -129,8 +129,8 @@ Twitter URL: ${q}
 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
 
-  ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+  🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
   
         `.trim();
   },
@@ -146,8 +146,8 @@ https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
 
-    ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+    🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
         
         `.trim();
   },
@@ -159,8 +159,8 @@ https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
 📅 *𝙳𝚊𝚝𝚎:* ${movieResponse.episodeInfo?.date || "𝙽/𝙰"}
 
-     ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+     🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
         
         `.trim();
   },
@@ -173,8 +173,8 @@ https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
 📅 *Date:* ${episodeInfo.date || "N/A"}
 💾 *Quality:* ${quality.toUpperCase()}
 
-     ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+     🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
         
         `.trim();
   },
@@ -186,8 +186,8 @@ https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.network}
 
-      ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+     🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
         
         `.trim();
   },
@@ -199,8 +199,7 @@ https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.showInfo.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.showInfo.network}
 
-   ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+   
         
         `.trim();
   },
@@ -210,8 +209,8 @@ https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
 
-     ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+     🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
         
         `.trim();
   },
@@ -243,8 +242,8 @@ https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
 🌍 RATINGS:${rating}  
 ⏳ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:${duration}  
 
-     ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+     🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
         
         `.trim();
   },
@@ -280,8 +279,8 @@ ${description}
 📅 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${year}
 ⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${duration}
 
-     ```Join with us🫂🎬```
-https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+     🔗 *join :*
+*https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c*
         
         `.trim();
   },
