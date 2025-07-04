@@ -129,7 +129,8 @@ Twitter URL: ${q}
 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
 
-          *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
+          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
   
         `.trim();
   },
