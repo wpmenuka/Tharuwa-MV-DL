@@ -129,7 +129,7 @@ Twitter URL: ${q}
 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
 
-          *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
+          *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
           https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
   
         `.trim();
@@ -146,7 +146,7 @@ Twitter URL: ${q}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
 
-    *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+        *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
         
         `.trim();
   },
@@ -171,7 +171,7 @@ Twitter URL: ${q}
 📅 *Date:* ${episodeInfo.date || "N/A"}
 💾 *Quality:* ${quality.toUpperCase()}
 
-     *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+       *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
         
         `.trim();
   },
@@ -183,7 +183,7 @@ Twitter URL: ${q}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.network}
 
-     *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+       *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
         
         `.trim();
   },
@@ -205,7 +205,7 @@ Twitter URL: ${q}
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
 
-     *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+       *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
         
         `.trim();
   },
@@ -237,7 +237,7 @@ Twitter URL: ${q}
 🌍 RATINGS:${rating}  
 ⏳ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:${duration}  
 
-     *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+       *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
         
         `.trim();
   },
@@ -273,7 +273,7 @@ ${description}
 📅 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${year}
 ⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${duration}
 
-    🔎 *𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+       *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
         
         `.trim();
   },
