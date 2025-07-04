@@ -129,7 +129,8 @@ Twitter URL: ${q}
 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
 
-  GROUP Link
+  GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t
+  
         `.trim();
   },
   CINESUBZ: function (title, metadata, rating) {
@@ -143,6 +144,9 @@ Twitter URL: ${q}
 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
+
+    GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t
+        
         `.trim();
   },
   CINETVSHOW: function (movieResponse) {
@@ -152,6 +156,9 @@ Twitter URL: ${q}
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
 📅 *𝙳𝚊𝚝𝚎:* ${movieResponse.episodeInfo?.date || "𝙽/𝙰"}
+
+     GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t
+        
         `.trim();
   },
   SINHALASUBTVSHOW: function (episodeInfo, quality) {
@@ -162,6 +169,9 @@ Twitter URL: ${q}
 🎞️ *Episode:* ${episodeInfo.episodeTitle || "N/A"}
 📅 *Date:* ${episodeInfo.date || "N/A"}
 💾 *Quality:* ${quality.toUpperCase()}
+
+     GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t
+        
         `.trim();
   },
   CINETVSHOWALLDL: function (movieData) {
@@ -171,6 +181,9 @@ Twitter URL: ${q}
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.network}
+
+      GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t
+        
         `.trim();
   },
   SINHALASUBTVSHOWALLDL: function (movieData) {
@@ -180,6 +193,9 @@ Twitter URL: ${q}
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.showInfo.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.showInfo.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.showInfo.network}
+
+   GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t
+        
         `.trim();
   },
   SIMNHALAMOVIE: function (title) {
@@ -187,6 +203,9 @@ Twitter URL: ${q}
 🎬 *『 𝔽𝕀𝕃𝕄 𝕎𝕆ℝ𝕃𝔻 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
+
+    GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t 
+        
         `.trim();
   },
   AWAMOVIE: function (title, releaseDate, country) {
@@ -216,6 +235,9 @@ Twitter URL: ${q}
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
 🌍 RATINGS:${rating}  
 ⏳ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:${duration}  
+
+     GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t 
+        
         `.trim();
   },
   ADULTMOVIE: function (title, rating, description) {
@@ -249,6 +271,9 @@ ${description}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating}
 📅 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${year}
 ⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${duration}
+
+     GROUP LINK - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_t 
+        
         `.trim();
   },
   //=====================youtube===========================================
