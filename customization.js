@@ -115,8 +115,8 @@ Twitter URL: ${q}
   //====================movie======================================
   GROUP: function (groupName, conf) {
     return `
-📨 *𝙂𝙍𝙊𝙐𝙋 𝙉𝘼𝙈𝙀:* ${groupName}
-🛡️ *𝙐𝙋𝙇𝙊𝘼𝘿:* ${conf.MNAME}
+🌐 *𝙂𝙍𝙊𝙐𝙋 𝙉𝘼𝙈𝙀:* ${groupName}
+📥 *𝙐𝙋𝙇𝙊𝘼𝘿:* ${conf.MNAME}
         `.trim();
   },
   SINHALASUB: function (movieData) {
@@ -130,7 +130,7 @@ Twitter URL: ${q}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
-          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
   
         `.trim();
   },
@@ -147,7 +147,7 @@ Twitter URL: ${q}
 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
-          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
         
         `.trim();
   },
@@ -160,7 +160,7 @@ Twitter URL: ${q}
 📅 *𝙳𝚊𝚝𝚎:* ${movieResponse.episodeInfo?.date || "𝙽/𝙰"}
 
           *🔗𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
-          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
         
         `.trim();
   },
@@ -174,7 +174,7 @@ Twitter URL: ${q}
 💾 *Quality:* ${quality.toUpperCase()}
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
-          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
         
         `.trim();
   },
@@ -187,7 +187,7 @@ Twitter URL: ${q}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.network}
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
-          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
         
         `.trim();
   },
@@ -210,7 +210,7 @@ Twitter URL: ${q}
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
-          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
         
         `.trim();
   },
@@ -243,7 +243,7 @@ Twitter URL: ${q}
 ⏳ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:${duration}  
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
-          https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+          https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
         
         `.trim();
   },
@@ -279,7 +279,8 @@ ${description}
 📅 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${year}
 ⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${duration}
 
-       *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - https://chat.whatsapp.com/DAjsIRUaRozGAM3fS1qJv9?mode=r_c
+        *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
+        https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
         
         `.trim();
   },
