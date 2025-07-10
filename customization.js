@@ -116,8 +116,9 @@ Twitter URL: ${q}
   GROUP: function (groupName, conf) {
     return `
 🌐 *𝙂𝙍𝙊𝙐𝙋 𝙉𝘼𝙈𝙀:* ${groupName}
-📥 *𝙐𝙋𝙇𝙊𝘼𝘿:* ${conf.MNAME}
-        `.trim();
+📥 *𝙐𝙋𝙇𝙊𝘼𝘿 𝘽𝙔 - 𝙏𝙃𝘼𝙍𝙐𝙎𝙃𝘼
+
+`.trim();
   },
   SINHALASUB: function (movieData) {
     return `
@@ -128,7 +129,8 @@ Twitter URL: ${q}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.metadata?.releaseDate || "𝙽/𝙰"}
 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
-
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
+      
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
           https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
   
@@ -145,6 +147,7 @@ Twitter URL: ${q}
 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
           https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
@@ -158,6 +161,7 @@ Twitter URL: ${q}
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
 📅 *𝙳𝚊𝚝𝚎:* ${movieResponse.episodeInfo?.date || "𝙽/𝙰"}
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
 
           *🔗𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
           https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
@@ -172,6 +176,7 @@ Twitter URL: ${q}
 🎞️ *Episode:* ${episodeInfo.episodeTitle || "N/A"}
 📅 *Date:* ${episodeInfo.date || "N/A"}
 💾 *Quality:* ${quality.toUpperCase()}
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
           https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
@@ -185,6 +190,7 @@ Twitter URL: ${q}
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.network}
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* -
           https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
@@ -198,7 +204,7 @@ Twitter URL: ${q}
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.showInfo.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.showInfo.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.showInfo.network}
-
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
    
         
         `.trim();
@@ -208,6 +214,7 @@ Twitter URL: ${q}
 🎬 *『 𝔽𝕀𝕃𝕄 𝕎𝕆ℝ𝕃𝔻 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
           https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
@@ -231,7 +238,9 @@ Twitter URL: ${q}
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${releaseDate}  
 🌍 𝗖𝗼𝘂𝗻𝘁𝗿𝘆:${country}  
 ⏳ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:${duration}  
-        `.trim();
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
+        
+       `.trim();
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
@@ -241,6 +250,7 @@ Twitter URL: ${q}
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
 🌍 RATINGS:${rating}  
 ⏳ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:${duration}  
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
 
           *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
           https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
@@ -278,6 +288,7 @@ ${description}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating}
 📅 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${year}
 ⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${duration}
+🪀 *𝙲𝚘𝚗𝚝𝚊𝚌𝚝:* - https://wa.me/+94762862143
 
         *🔗 𝙶𝚁𝙾𝚄𝙿 𝙻𝙸𝙽𝙺* - 
         https://chat.whatsapp.com/GNNft24TSMZHkIRDWqXy95?mode=r_c
